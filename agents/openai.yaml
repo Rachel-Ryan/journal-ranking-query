@@ -1,0 +1,4 @@
+interface:
+  display_name: "期刊等级查询"
+  short_description: "查询期刊最新 JCR、SSCI、CCF、FMS 与 CSSCI 等级"
+  default_prompt: "使用 $journal-ranking-query 查询给定期刊的最新分区、影响因子和收录等级。"
