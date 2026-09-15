@@ -31,12 +31,12 @@ SSCI是否收录以2026年SSCI目录为准；SSCI学科的分区和排名来自�
 
 ## 让 Agent 自动安装并测试
 
-把下面整段提示词发给 Codex、Claude Code 或其他具备本地文件和命令执行能力的 Agent。先将第一行的仓库地址替换为你的实际地址。
+把下面整段提示词发给 Codex、Claude Code 或其他具备本地文件和命令执行能力的 Agent。
 
 ```text
 请从以下仓库安装并测试 `journal-ranking-query` Skill：
 
-仓库地址：<GitHub仓库URL>
+仓库地址：https://github.com/Rachel-Ryan/journal-ranking-query
 
 请先阅读仓库中的 `README.md` 和 `SKILL.md`，然后：
 1. 自动识别当前Agent平台并安装到用户级Skills目录；Codex使用 `~/.codex/skills/journal-ranking-query`，Claude Code使用 `~/.claude/skills/journal-ranking-query`。
@@ -51,7 +51,7 @@ SSCI是否收录以2026年SSCI目录为准；SSCI学科的分区和排名来自�
 ### Codex
 
 ```bash
-git clone <你的GitHub仓库URL> ~/.codex/skills/journal-ranking-query
+git clone https://github.com/Rachel-Ryan/journal-ranking-query ~/.codex/skills/journal-ranking-query
 ```
 
 如设置了 `CODEX_HOME`，安装到其下的 `skills/journal-ranking-query`。
@@ -59,7 +59,7 @@ git clone <你的GitHub仓库URL> ~/.codex/skills/journal-ranking-query
 ### Claude Code
 
 ```bash
-git clone <你的GitHub仓库URL> ~/.claude/skills/journal-ranking-query
+git clone https://github.com/Rachel-Ryan/journal-ranking-query ~/.claude/skills/journal-ranking-query
 ```
 
 项目级安装可复制到 `<项目目录>/.claude/skills/journal-ranking-query`。其他Agent平台应将完整仓库导入其Skills目录，并允许执行本地Python。
