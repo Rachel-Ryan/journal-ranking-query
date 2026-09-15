@@ -36,7 +36,7 @@ Send the entire prompt below to Codex, Claude Code, or another Agent capable of 
 ```text
 Install and test the `journal-ranking-query` Skill from this repository:
 
-Repository: <GitHub repository URL>
+Repository: https://github.com/Rachel-Ryan/journal-ranking-query
 
 First read `README.md` and `SKILL.md` in the repository, then:
 1. Detect the current Agent platform and install it in the user-level Skills directory: use `~/.codex/skills/journal-ranking-query` for Codex and `~/.claude/skills/journal-ranking-query` for Claude Code.
@@ -51,7 +51,7 @@ Python 3.8 or newer is required. Keep the entire repository intact when installi
 ### Codex
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL> ~/.codex/skills/journal-ranking-query
+git clone https://github.com/Rachel-Ryan/journal-ranking-query ~/.codex/skills/journal-ranking-query
 ```
 
 If `CODEX_HOME` is configured, install it under `skills/journal-ranking-query` within that directory.
@@ -59,7 +59,7 @@ If `CODEX_HOME` is configured, install it under `skills/journal-ranking-query` w
 ### Claude Code
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL> ~/.claude/skills/journal-ranking-query
+git clone https://github.com/Rachel-Ryan/journal-ranking-query ~/.claude/skills/journal-ranking-query
 ```
 
 For a project-level installation, copy it to `<project-directory>/.claude/skills/journal-ranking-query`. Other Agent platforms should import the complete repository into their Skills directory and allow local Python execution.
